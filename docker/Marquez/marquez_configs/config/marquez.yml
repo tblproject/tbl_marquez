@@ -1,0 +1,38 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 5000
+    httpCompliance: RFC7230_LEGACY
+  adminConnectors:
+  - type: http
+    port: 5001
+
+db:
+  driverClass: org.postgresql.Driver
+  url: jdbc:postgresql://xxx.xxx.xxx.xxx:5432/marquez
+  user: marquez
+  password: XXXXXXXXXXXX
+
+migrateOnStartup: true
+
+graphql:
+  enabled: true
+
+logging:
+  level: INFO
+  appenders:
+    - type: console
+
+search:
+  enabled: true
+  scheme: http
+  host: xxx.xxx.xxx.xxx
+  port: 9200
+  username: admin
+  password: XXXXXXXXXXXX
+
+tags:
+  - name: PII
+    description: Personally identifiable information
+  - name: SENSITIVE
+    description: Contains sensitive information
