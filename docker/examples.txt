@@ -1,4 +1,4 @@
-$ curl -X POST http://192.168.50.40:5000/api/v1/lineage \
+$ curl -X POST http://xxx.xxx.xxx.xxx:5000/api/v1/lineage \
   -i -H 'Content-Type: application/json' \
   -d '{
         "eventType": "START",
@@ -19,7 +19,7 @@ $ curl -X POST http://192.168.50.40:5000/api/v1/lineage \
       }'
 
 
-$ curl -X POST http://192.168.50.40:5000/api/v1/lineage \
+$ curl -X POST http://xxx.xxx.xxx.xxx:5000/api/v1/lineage \
   -i -H 'Content-Type: application/json' \
   -d '{
         "eventType": "START",
@@ -39,7 +39,7 @@ $ curl -X POST http://192.168.50.40:5000/api/v1/lineage \
         "schemaURL": "https://openlineage.io/spec/1-0-5/OpenLineage.json#/definitions/RunEvent"
       }'
 
-$ curl -X POST http://192.168.50.40:5000/api/v1/lineage \
+$ curl -X POST http://xxx.xxx.xxx.xxx:5000/api/v1/lineage \
   -i -H 'Content-Type: application/json' \
   -d '{
         "eventType": "COMPLETE",
@@ -70,7 +70,7 @@ $ curl -X POST http://192.168.50.40:5000/api/v1/lineage \
       }'
 
 
-curl -X POST http://192.168.50.40:5000/api/v1/lineage \
+curl -X POST http://xxx.xxx.xxx.xxx:5000/api/v1/lineage \
   -i -H 'Content-Type: application/json' \
   -d '{
         "eventType": "COMPLETE",

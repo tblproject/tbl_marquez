@@ -44,7 +44,7 @@ git clone https://github.com/MarquezProject/marquez && cd marquez
 Para configurar el servicio de Marquez apuntando a nuestra PostgreSQL e instancia de OpenSearch tenemos que crear imágenes custom de los servicios de **API** y **Web**.
 
 ### Crear imagen custom API
-Lo primero que debemos hacer es crear una copia de tres archivos:
+Lo primero que debemos hacer es crear una copia de dos archivos:
 - **marquez.dev.yml** en el raíz del directorio del proyecto.
 - **entrypoint.sh** en el direcotrio docker del proyecto.
 
