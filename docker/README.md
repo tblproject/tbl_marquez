@@ -182,7 +182,7 @@ ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
 Se ha creado a partir del archivo **Dockerfile**. Para crear la imagen custo, lanzaremos:
 
 ```bash
-docker build -f Dockerfile_custom -t marquez:0.50.0_custom --no-cache --rm .
+docker build -f Dockerfile_custom -t marquez-web:0.50.0_custom --no-cache --rm .
 ```
 
 ## Lanzar Marquez
